@@ -58,8 +58,6 @@ for link in PrevLevel[-1]:
             continue
         if len(href.split("#")) == 2:
             href = href.split("#")[0]
-        if href[-1] != "/":
-            href += "/"
         try:
             if href[:linklength] != startlink:
                 continue
