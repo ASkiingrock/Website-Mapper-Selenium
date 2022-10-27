@@ -56,12 +56,8 @@ for link in PrevLevel[-1]:
         href = gethref(a, 3)
         if href == "":
             continue
-        splithref = href.split("/")
-        try:
-            if splithref[-1][0] == "#":
-                href = "/".join(splithref[:-1])
-        except IndexError:
-            pass
+        if len(href.split("#")) == 2:
+            href = href.split("#")[0]
         if href[-1] != "/":
             href += "/"
         try:
