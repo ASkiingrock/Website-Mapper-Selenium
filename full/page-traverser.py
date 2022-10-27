@@ -56,8 +56,6 @@ for link in PrevLevel[-1]:
             continue
         if len(href.split("#")) == 2:
             href = href.split("#")[0]
-        if href[-1] != "/":
-            href += "/"
         if href not in jsonlinks:
             AnyNode(name=href, parent=link)
             jsonlinks.append(href)
