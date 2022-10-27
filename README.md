@@ -17,7 +17,7 @@ Will also need to install the geckodriver for firefox, or the chromedriver for c
 
 Change your link that you want to use in start-tree.json, and your driver path in the page-traverser.py
 
-Copy start-tree.json into the tree.json file you will be using, and you're good to go.
+Copy start-tree.json into the tree.json file you will be using, and links.json into the links.json into the folder you will be using.
 
 For each depth of search, run page-traverser.py. This will look at each href in each page on the last layer of the tree. If you wanted to go to depth 3 for instance, run it 3 times.
 
