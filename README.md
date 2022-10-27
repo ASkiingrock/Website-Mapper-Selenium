@@ -1,2 +1,2 @@
-# Website-Mapper-Selenium
-Maps website by accessing all hrefs on each page layer by layer, using selenium, python and he anytree module
+# Selenium-Website-Mapper
+Creates a tree of a website layer by layer using selenium python and the anytree module
